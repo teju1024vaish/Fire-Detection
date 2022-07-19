@@ -39,7 +39,7 @@ Warning A Fire Accident has been reported on ABC company"""
 		print(e)
 
 
-video = cv2.VideoCapture("Fire07.mov")  #any video file
+video = cv2.VideoCapture("Fire07.mov")  #any video file with fire
 
 while True:
 
