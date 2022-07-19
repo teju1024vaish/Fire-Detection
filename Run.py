@@ -21,9 +21,9 @@ def send_email_function():
 	try:
 		port = 587  # For starttls
 		smtp_server = "smtp.gmail.com"
-		sender_email = "musiccontentsystem@gmail.com"
-		receiver_email = "teju101999@gmail.com"
-		password = "bcvvncwcnhnckpuk"
+		sender_email = "sender_mail_address"
+		receiver_email = "receiver_mail_address"
+		password = "password"
 		message = """\
 Subject: Fire Detection
 Warning A Fire Accident has been reported on ABC company"""
@@ -39,7 +39,7 @@ Warning A Fire Accident has been reported on ABC company"""
 		print(e)
 
 
-video = cv2.VideoCapture("Fire07.mov")
+video = cv2.VideoCapture("Fire07.mov")  #any video file
 
 while True:
 
